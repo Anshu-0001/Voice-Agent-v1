@@ -1,9 +1,6 @@
 FROM n8nio/n8n:1.81.1
 
-# Force installation path so Render doesn't override binaries
 USER root
-
-# Make sure the n8n binary is executable
 RUN chmod +x /usr/local/bin/n8n
 
 USER node
