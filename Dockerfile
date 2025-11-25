@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.81.1
+FROM n8nio/n8n:1.58.1
 
 USER root
 RUN chmod +x /usr/local/bin/n8n
